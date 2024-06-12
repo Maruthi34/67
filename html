@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Services Section</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1rem;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 1rem;
+        }
+        .service {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .service h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        .service p {
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            width: 100%;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+    </header>
+    <div class="services">
+        <div class="service">
+            <h3>Web Development</h3>
+            <p>High-quality web development services using the latest technologies.</p>
+        </div>
+        <div class="service">
+            <h3>Graphic Design</h3>
+            <p>Creative and impactful graphic design services to enhance your brand.</p>
+        </div>
+        <div class="service">
+            <h3>SEO Optimization</h3>
+            <p>Effective SEO strategies to improve your website's search engine rankings.</p>
+        </div>
+        <div class="service">
+            <h3>Digital Marketing</h3>
+            <p>Comprehensive digital marketing services to boost your online presence.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
